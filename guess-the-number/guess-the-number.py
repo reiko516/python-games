@@ -1,3 +1,5 @@
+# Try out the game at http://www.codeskulptor.org/#user9_iGAgIHpbEhoQJ0o.py
+
 import simplegui 
 import random
 import math
