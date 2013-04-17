@@ -10,4 +10,4 @@ To aid in exploring these programs, each game folder includes the following:
  - Description of the project in README file
  - File of the final code
  - URL to CodeSkulptor to view the game in action
- - Screenshots of the game (in case URL doesn't work for some reason)
+ - Screenshots of the game where applicable
