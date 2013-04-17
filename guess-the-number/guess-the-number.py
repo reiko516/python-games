@@ -48,24 +48,26 @@ def get_input(guess):
     guesses += 1
     guess_left = max_guesses - guesses
     
-    # print results
-    print "Guess was", player_guess
-    print "You have", guess_left, "guesses left."    
-   
+    # print results   
     if guess_left==0:
         print "Sorry, you ran out of guesses. The number was", secret_num, "\n"
         init()
         return            
     
     if player_guess > secret_num:
-        print "Lower!\n"
+        print "Your guess was", player_guess
+        print "Choose lower!"
+        print "You have", guess_left, "guesses left.\n"
     elif player_guess < secret_num:
-        print "Higher!\n"
+        print "Your guess was", player_guess
+        print "Choose higher!"
+        print "You have", guess_left, "guesses left.\n"
     else:
-        print "Correct!\n"
+        print "Your guess was", player_guess
+        print "You got it right!\n"
         init()
         return
-   
+           
 # create frame
 f = simplegui.create_frame("Guess the number", 200, 200)
 
